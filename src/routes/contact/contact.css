@@ -1,0 +1,57 @@
+body {
+  background: #282c34; /* Dark blue, less stark */
+  color: #11131e; /* Light blue, better contrast */
+  line-height: 1.6; /* Improves readability */
+  margin: 0;
+  font-size: 16px; /* Larger base font size */
+}
+
+.App {
+  height: 75vh;
+  margin-top: 15vh;
+  padding: 0 15px; /* Padding for wide screens */
+}
+
+form {
+  margin-top: 20px;
+}
+
+.formRow {
+  margin-bottom: 1.5rem; /* Consistent margin bottom */
+}
+
+.formInput {
+  padding: 15px 10px;
+  width: 100%; /* Full width on all devices */
+  border: 1px solid #a3a8c3; /* Light blue border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.errorMessage {
+  color: #e57373; /* Red for error messages */
+  font-size: 16px; /* Make error messages larger */
+  margin: 0;
+  padding: 0;
+}
+
+.submit-btn {
+  padding: 15px 50px;
+  border-radius: 4px; /* Consistent border radius */
+  background-color: #a3a8c3; /* Light blue backgrond */
+  color: #282c34; /* Dark blue text */
+  cursor: pointer; /* Cursor change on hover */
+  margin-bottom: 2rem; /* Margin bottom */
+  border: none; /* Remove default border */
+  transition: background .3s ease-in-out; /* Transition */
+}
+
+.submit-btn:hover {
+  background-color: #64707d; /* Darker color on hover */
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 100%; /* Full width on small screens */
+    margin-left: 0; /* Remove left margin */
+  }
+}
